@@ -4,6 +4,7 @@ const logSymbols = require('log-symbols');
 
 const {
   config,
+  constants,
   read,
   write
 } = require('./lib');
