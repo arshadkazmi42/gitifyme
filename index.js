@@ -16,6 +16,14 @@ const configure = async (currentPath) => {
     // Read config file content
     let configContent = await read(currentPath);
 
+    // Check if already gitified
+    const userRegex = new RegExp(constants.user, 'i');
+    if (userRegex.test(configContent)) {
+      console.log(logSymbols.info, 'You are already gitified!!!');
+      return;
+    }
+
+    // Getting user config from /usr/local/.gitifyme/config
     const userConfig = await config.get();
     configContent = configContent + userConfig
 
@@ -23,7 +31,6 @@ const configure = async (currentPath) => {
     await write(currentPath, configContent);
 
   } catch (err) {
-
     console.log(logSymbols.error, err);
   }
 }
