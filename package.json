@@ -1,0 +1,32 @@
+{
+  "name": "gitifyme",
+  "version": "1.0.0",
+  "description": "Configure my details to git configuration",
+  "main": "index.js",
+  "bin": {
+    "gitifyme": "index.js"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshadkazmi42/gitifyme.git"
+  },
+  "keywords": [
+    "git",
+    "configure",
+    "name",
+    "email",
+    "git-config"
+  ],
+  "author": "Arshad Kazmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arshadkazmi42/gitifyme/issues"
+  },
+  "homepage": "https://github.com/arshadkazmi42/gitifyme#readme",
+  "dependencies": {
+    "log-symbols": "^2.2.0"
+  }
+}
