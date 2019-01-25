@@ -5,7 +5,7 @@ Configure name and email in current repository git config
 ## Install
 
 ```
-npm i -g gitifyme
+$ npm i -g gitifyme
 ```
 
 ## Usage
