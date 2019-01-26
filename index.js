@@ -15,7 +15,7 @@ const configure = async (currentPath) => {
   try {
 
     // Read config file content
-    let configContent = await read(currentPath);
+    let configContent = await read(`${currentPath}${constants.configPath}`);
 
     // Check if already gitified
     const userRegex = new RegExp(constants.user, 'i');
@@ -29,7 +29,10 @@ const configure = async (currentPath) => {
     configContent = configContent + userConfig
 
     // Writting updated config
-    await write(currentPath, configContent);
+    await write(`${currentPath}${constants.configPath}`, configContent);
+
+    console.log(logSymbols.success, 'Gitifyed you!!!');
+    return;
 
   } catch (err) {
     console.log(logSymbols.error, err);

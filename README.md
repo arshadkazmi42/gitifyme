@@ -10,19 +10,15 @@ $ npm i -g gitifyme
 
 ## Usage
 
-- Create a config file at /usr/local/.gitifyme/config with following details
-
-```
-[user]
-    name = Your name
-    email = youremail@mail.com
-```
-
 - Run the below command inside any github initialized repository
 
 ```
 $ gitifyme
 ```
+
+## Sample Usage
+
+<img src="assets/gitifyme.gif" alt="gitifyme"/> <br>
 
 ## Contributing
 
