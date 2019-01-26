@@ -1,6 +1,12 @@
 # gitifyme :octocat:
 
-Configure name and email in current repository git config
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme)
+[![LICENSE](https://img.shields.io/npm/l/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/LICENSE)
+[![NPM Version](https://img.shields.io/npm/v/gitifyme.svg)](https://www.npmjs.com/package/gitifyme)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/commits/master)
+
+Configure name and email in current git repository config
 
 ## Install
 
