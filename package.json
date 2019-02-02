@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/arshadkazmi42/gitifyme#readme",
   "dependencies": {
+    "@gh-conf/gh-conf-read": "^1.1.0",
+    "@gh-conf/gh-conf-write": "^1.1.0",
     "log-symbols": "^2.2.0",
     "make-dir": "^1.3.0"
   }
