@@ -9,6 +9,8 @@
 
 Configure name and email in current git repository config
 
+<img src="assets/gitifyme.gif" alt="gitifyme"/> <br>
+
 ## Install
 
 ```
@@ -22,10 +24,6 @@ $ npm i -g gitifyme
 ```
 $ gitifyme
 ```
-
-## Sample Usage
-
-<img src="assets/gitifyme.gif" alt="gitifyme"/> <br>
 
 ## Contributing
 
