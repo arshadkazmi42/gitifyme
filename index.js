@@ -1,12 +1,13 @@
 #!/usr/bin/env node
 
 const logSymbols = require('log-symbols');
+const { readConf } = require('@gh-conf/gh-conf-read');
+const { writeConf } = require('@gh-conf/gh-conf-write');
+
 
 const {
   config,
-  constants,
-  read,
-  write
+  constants  
 } = require('./lib');
 
 
@@ -15,7 +16,7 @@ const configure = async (currentPath) => {
   try {
 
     // Read config file content
-    let configContent = await read(`${currentPath}${constants.configPath}`);
+    let configContent = await readConf(`${currentPath}`);
 
     // Check if already gitified
     const userRegex = new RegExp(constants.user, 'i');
@@ -29,7 +30,7 @@ const configure = async (currentPath) => {
     configContent = configContent + userConfig
 
     // Writting updated config
-    await write(`${currentPath}${constants.configPath}`, configContent);
+    await writeConf(`${currentPath}`, configContent);
 
     console.log(logSymbols.success, 'Gitifyed you!!!');
     return;
