@@ -19,7 +19,7 @@ $ npm i -g gitifyme
 
 ## Usage
 
-- Run the below command inside any github initialized repository
+- Run the below command inside any git initialized repository
 
 ```
 $ gitifyme
