@@ -14,7 +14,7 @@
     "url": "git+https://github.com/arshadkazmi42/gitifyme.git"
   },
   "files": [
-    "index.js"
+    "index.js",
     "lib/"
   ],
   "keywords": [
