@@ -13,6 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/arshadkazmi42/gitifyme.git"
   },
+  "files": [
+    "index.js",
+    "lib/"
+  ],
   "keywords": [
     "git",
     "configure",
