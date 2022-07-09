@@ -3,7 +3,7 @@
 [![NPM Version](https://img.shields.io/npm/v/gitifyme.svg)](https://www.npmjs.com/package/gitifyme)
 [![NPM Downloads](https://img.shields.io/npm/dt/gitifyme.svg)](https://www.npmjs.com/package/gitifyme)
 [![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme)
-[![LICENSE](https://img.shields.io/npm/l/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/LICENSE)
+[![LICENSE](https://img.shields.io/npm/l/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/blob/master/LICENSE)
 [![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/graphs/contributors)
 [![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/gitifyme.svg)](https://github.com/arshadkazmi42/gitifyme/commits/master)
 
